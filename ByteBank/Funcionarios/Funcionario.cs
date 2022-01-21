@@ -2,9 +2,7 @@ namespace ByteBank.Funcionarios
 {
     public class Funcionario
     {
-        //0 = funcionário
-        //1 = diretor
-        //2 = designer
+
         private int _tipo;
         public string Nome { get; set; }
         public string CPF { get; set; }
@@ -12,7 +10,7 @@ namespace ByteBank.Funcionarios
 
      
        
-        public double GetBonificacao()
+        public virtual double GetBonificacao()
         {
             return Salario * 0.10;
         }

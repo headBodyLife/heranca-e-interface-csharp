@@ -21,6 +21,10 @@ namespace ByteBank
             funcionario2.Salario = 5000;
             gerenciador.Registrar(funcionario2);
 
+            Funcionario funcionario2Teste = funcionario2;
+            Console.WriteLine("Bonificação de uma referencia de Diretor: "+funcionario2.GetBonificacao());
+            Console.WriteLine("Bonificação de uma referencia de Funcionario: "+funcionario2Teste.GetBonificacao());
+            
             Funcionario funcionario3 = new Diretor();
             funcionario3.Nome = "Pedro";
             
