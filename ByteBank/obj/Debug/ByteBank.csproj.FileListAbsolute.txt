@@ -1,0 +1,13 @@
+/home/allan/docs/C#/alura/HerancaEInterface/ByteBank/bin/Debug/ByteBank.exe
+/home/allan/docs/C#/alura/HerancaEInterface/ByteBank/bin/Debug/ByteBank.pdb
+/home/allan/docs/C#/alura/HerancaEInterface/ByteBank/obj/Debug/ByteBank.csprojAssemblyReference.cache
+/home/allan/docs/C#/alura/HerancaEInterface/ByteBank/obj/Debug/ByteBank.csproj.CoreCompileInputs.cache
+/home/allan/docs/C#/alura/HerancaEInterface/ByteBank/obj/Debug/ByteBank.exe
+/home/allan/docs/C#/alura/HerancaEInterface/ByteBank/obj/Debug/ByteBank.pdb
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\bin\Debug\ByteBank.exe
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\bin\Debug\ByteBank.pdb
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\obj\Debug\ByteBank.csproj.AssemblyReference.cache
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\obj\Debug\ByteBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\obj\Debug\ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\obj\Debug\ByteBank.exe
+C:\Users\allan\source\repos\heranca-e-interface-csharp\ByteBank\obj\Debug\ByteBank.pdb
