@@ -29,6 +29,10 @@ namespace ByteBank
             Funcionario camila = new GerendeDeConta("444.444.444-44");
             camila.Nome = "Camila";
 
+            Desenvolvedor guilherme = new Desenvolvedor("555.555.555-55");
+            guilherme.Nome = "Guilherme";
+
+            gerenciadorBonificacao.Registrar(guilherme);
             gerenciadorBonificacao.Registrar(pedro);
             gerenciadorBonificacao.Registrar(roberta);
             gerenciadorBonificacao.Registrar(igor);
