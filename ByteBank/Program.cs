@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using ByteBank.Funcionarios;
+using ByteBank.Sistemas;
+
 namespace ByteBank
 {
     internal class Program
@@ -8,8 +10,26 @@ namespace ByteBank
         public static void Main(string[] args)
         {
 
-            CalculaBonificacao();
+            //CalculaBonificacao();
+            UsarSistema();
             Console.ReadLine();
+        }
+
+        public static void UsarSistema()
+        {
+            SistemaInterno sistemaInterno = new SistemaInterno();
+
+            Diretor roberta = new Diretor("222.222.222-22");
+            roberta.Nome = "Roberta";
+            roberta.Senha = "123";
+
+            GerendeDeConta camila = new GerendeDeConta("444.444.444-44");
+            camila.Nome = "Camila";
+            camila.Senha = "123";
+
+            sistemaInterno.Logar(roberta, "123");
+            sistemaInterno.Logar(camila, "Abc");
+
         }
 
         public static void CalculaBonificacao()
