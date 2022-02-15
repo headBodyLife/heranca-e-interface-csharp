@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ByteBank.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,19 +7,11 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    internal class GerendeDeConta : Funcionario
+    internal class GerendeDeConta : Autenticavel
     {
         public GerendeDeConta(string cpf) : base(4000, cpf)
         {
 
-        }
-
-        public string Senha { get; set; }
-      
-
-        public bool Autenticar(string senha)
-        {
-            return Senha == senha;
         }
 
         public override void AumentarSalario()

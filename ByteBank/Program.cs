@@ -27,8 +27,16 @@ namespace ByteBank
             camila.Nome = "Camila";
             camila.Senha = "123";
 
+
+            Console.WriteLine("Nome: " + roberta.Nome);
             sistemaInterno.Logar(roberta, "123");
-            sistemaInterno.Logar(camila, "Abc");
+
+            Console.WriteLine("Nome: " + camila.Nome);
+            sistemaInterno.Logar(camila, "1234");
+
+
+    
+
 
         }
 

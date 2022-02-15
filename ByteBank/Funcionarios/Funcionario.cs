@@ -21,6 +21,8 @@ namespace ByteBank.Funcionarios
             TotalDeFuncionarios++;
         }
 
+    
+
         public abstract double GetBonificacao();
 
     }
