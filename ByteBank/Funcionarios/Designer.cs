@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    internal class Designer : Autenticavel
+    internal class Designer : FuncionarioAutenticavel
     {
-        public Designer(string cpf) : base(3000, cpf)
+        public Designer(string cpf) : base(1000,cpf)
         {
 
         }

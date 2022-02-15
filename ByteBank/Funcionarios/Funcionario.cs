@@ -6,7 +6,7 @@ namespace ByteBank.Funcionarios
     {
 
         public static int TotalDeFuncionarios { get; private set; }
-        private int _tipo;
+        
         public string Nome { get; set; }
         public string CPF { get; private set; }
         public double Salario { get; protected set; }

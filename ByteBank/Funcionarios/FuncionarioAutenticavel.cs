@@ -4,17 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBank
+namespace ByteBank.Funcionarios
 {
-    internal class ParceiroComercial : IAutenticavel
+    internal abstract class FuncionarioAutenticavel: Funcionario, IAutenticavel
     {
         public string Senha { get; set; }
-        public string Nome { get; set; }
+        public FuncionarioAutenticavel(double salario, string cpf) : base(salario, cpf)
+        {
+
+        }
+
         public bool Autenticar(string senha)
         {
             return Senha == senha;
         }
-
-
     }
 }
